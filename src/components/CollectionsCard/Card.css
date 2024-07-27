@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 24px;
+    border-radius: 8px;
+  }

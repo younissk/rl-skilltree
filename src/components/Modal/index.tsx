@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Modal.css";
 import { JSONFormat } from "../../utils/generateNodes";
 import SkillTreeCollectionsMap from "../../data/SkillTreeCollectionsMap";
 import { addCompletedSkill } from "../../utils/indexedDB";
+import Confetti from "react-confetti"; // Import Confetti
 
 interface ModalProps {
   isOpen: boolean;
@@ -12,6 +13,7 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, data, collection }) => {
+  const [showConfetti, setShowConfetti] = useState(false); // State to manage confetti
   const collectionData = SkillTreeCollectionsMap.get(collection);
 
   const prerequisiteSkills = collectionData?.filter((item) =>
@@ -24,13 +26,13 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, data, collection }) => {
 
   const handleMarkAsCompleted = async () => {
     await addCompletedSkill({ ...data, collection });
-    onClose();
-    // refresh the page
-    window.location.reload();
+    setShowConfetti(true); // Show confetti
+    setTimeout(() => setShowConfetti(false), 8000);
   };
 
   return (
     <div className={`modal ${isOpen ? "open" : ""}`}>
+      {showConfetti && <Confetti />} {/* Render Confetti */}
       <div className="modal-content">
         <span className="close" onClick={onClose}>
           &times;
