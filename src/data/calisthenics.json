@@ -1,0 +1,269 @@
+[
+    {
+      "id": "1",
+      "label": "Push-Up",
+      "level": "beginner",
+      "connectedTo": ["2", "3"],
+      "description": "A push-up is a fundamental calisthenics exercise that targets the chest, shoulders, and triceps. It is performed from a prone position by raising and lowering the body using the arms.",
+      "completed": false,
+      "prerequisites": [],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.verywellfit.com/how-to-do-a-push-up-3120561",
+        "https://www.youtube.com/watch?v=_l3ySVKYVJ8"
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Incline Push-Up",
+      "level": "beginner",
+      "connectedTo": ["4"],
+      "description": "An incline push-up is a variation of the push-up performed with the hands elevated on a surface, which reduces the weight and makes it easier to perform.",
+      "completed": false,
+      "prerequisites": ["1"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.healthline.com/health/exercise-fitness/incline-pushups",
+        "https://www.youtube.com/watch?v=Epb6hV-PY8Q"
+      ]
+    },
+    {
+      "id": "3",
+      "label": "Knee Push-Up",
+      "level": "beginner",
+      "connectedTo": ["4"],
+      "description": "A knee push-up is a modified version of the push-up, performed with the knees on the ground to reduce the difficulty.",
+      "completed": false,
+      "prerequisites": ["1"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.self.com/story/how-to-do-a-knee-push-up",
+        "https://www.youtube.com/watch?v=nkGsYeuCn0A"
+      ]
+    },
+    {
+      "id": "4",
+      "label": "Full Push-Up",
+      "level": "beginner",
+      "connectedTo": ["5", "6", "7"],
+      "description": "A full push-up is performed with the body in a plank position, lowering and raising the body using the arms.",
+      "completed": false,
+      "prerequisites": ["2", "3"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.verywellfit.com/how-to-do-a-push-up-3120561",
+        "https://www.youtube.com/watch?v=IODxDxX7oi4"
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Diamond Push-Up",
+      "level": "intermediate",
+      "connectedTo": ["8"],
+      "description": "A diamond push-up is a variation of the push-up that targets the triceps more intensely. The hands are placed close together under the chest, forming a diamond shape with the thumbs and index fingers.",
+      "completed": false,
+      "prerequisites": ["4"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.muscleandfitness.com/workouts/arm-exercises/how-do-perfect-diamond-push/",
+        "https://www.youtube.com/watch?v=t0mOF9SE0Is"
+      ]
+    },
+    {
+      "id": "6",
+      "label": "Clap Push-Up",
+      "level": "intermediate",
+      "connectedTo": ["9"],
+      "description": "A clap push-up is an explosive variation of the push-up where the hands leave the ground and clap together before returning to the starting position.",
+      "completed": false,
+      "prerequisites": ["4"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.coachmag.co.uk/bodyweight-exercises/7232/how-to-do-clap-push-ups",
+        "https://www.youtube.com/watch?v=GjuJgrYoqjY"
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Pike Push-Up",
+      "level": "intermediate",
+      "connectedTo": ["10"],
+      "description": "A pike push-up is a push-up variation that emphasizes the shoulders. It is performed with the hips raised high, forming an inverted V shape.",
+      "completed": false,
+      "prerequisites": ["4"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.verywellfit.com/how-to-do-the-pike-push-up-4688724",
+        "https://www.youtube.com/watch?v=r_lmvvCuZ_4"
+      ]
+    },
+    {
+      "id": "8",
+      "label": "Tricep Dips",
+      "level": "intermediate",
+      "connectedTo": ["11"],
+      "description": "Tricep dips are a bodyweight exercise that targets the triceps, performed on parallel bars by lowering and raising the body using the arms.",
+      "completed": false,
+      "prerequisites": ["5"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.verywellfit.com/how-to-do-triceps-dips-4688657",
+        "https://www.youtube.com/watch?v=2z8JmcrW-As"
+      ]
+    },
+    {
+      "id": "9",
+      "label": "Pull-Up",
+      "level": "beginner",
+      "connectedTo": ["12"],
+      "description": "A pull-up is an upper-body strength exercise that involves pulling oneself up from a dead hang on a bar until the chin is above the bar.",
+      "completed": false,
+      "prerequisites": ["1"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.coachmag.co.uk/bodyweight-exercises/7135/how-to-do-the-perfect-pullup",
+        "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+      ]
+    },
+    {
+      "id": "10",
+      "label": "Handstand",
+      "level": "intermediate",
+      "connectedTo": ["13", "14"],
+      "description": "A handstand is the act of supporting the body in a stable, inverted vertical position by balancing on the hands. It requires strength, balance, and coordination.",
+      "completed": false,
+      "prerequisites": ["4"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.gymnasticbodies.com/how-to-do-a-handstand/",
+        "https://www.youtube.com/watch?v=rG2uzkBHS-4"
+      ]
+    },
+    {
+      "id": "11",
+      "label": "Bar Muscle-Up",
+      "level": "advanced",
+      "connectedTo": ["15"],
+      "description": "A bar muscle-up is an advanced strength training exercise that combines a pull-up with a dip. It involves pulling oneself up from a hang on a bar and then pushing the body above the bar until the arms are straight.",
+      "completed": false,
+      "prerequisites": ["9", "8"],
+      "completedRequirement": true,
+      "resources": [
+        "https://www.redbull.com/us-en/how-to-do-a-perfect-muscle-up",
+        "https://www.youtube.com/watch?v=O17z1a3OT5I"
+      ]
+    },
+    {
+      "id": "12",
+      "label": "Chin-Up",
+      "level": "beginner",
+      "connectedTo": ["16"],
+      "description": "A chin-up is a variation of the pull-up that targets the biceps more intensely. It is performed with an underhand grip.",
+      "completed": false,
+      "prerequisites": ["9"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.coachmag.co.uk/bodyweight-exercises/7210/how-to-do-a-perfect-chin-up",
+        "https://www.youtube.com/watch?v=bmDakhg45rk"
+      ]
+    },
+    {
+      "id": "13",
+      "label": "Wall Handstand",
+      "level": "beginner",
+      "connectedTo": ["10"],
+      "description": "A wall handstand is a beginner-friendly variation of the handstand performed against a wall for support.",
+      "completed": false,
+      "prerequisites": ["4"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.gymnasticbodies.com/how-to-do-a-wall-handstand/",
+        "https://www.youtube.com/watch?v=E2xn1eM0UTk"
+      ]
+    },
+    {
+      "id": "14",
+      "label": "Handstand Push-Up",
+      "level": "advanced",
+      "connectedTo": ["17"],
+      "description": "A handstand push-up is an advanced exercise that involves performing a push-up while in a handstand position, targeting the shoulders and triceps.",
+      "completed": false,
+      "prerequisites": ["10"],
+      "completedRequirement": true,
+      "resources": [
+        "https://www.nerdfitness.com/blog/how-to-do-handstand-push-ups/",
+        "https://www.youtube.com/watch?v=t0-bp2HuQD8"
+      ]
+    },
+    {
+      "id": "15",
+      "label": "Ring Muscle-Up",
+      "level": "advanced",
+      "connectedTo": ["18"],
+      "description": "A ring muscle-up is an advanced calisthenics exercise performed on gymnastics rings, combining a pull-up and a dip.",
+      "completed": false,
+      "prerequisites": ["11"],
+      "completedRequirement": true,
+      "resources": [
+        "https://www.gymnasticbodies.com/how-to-do-ring-muscle-ups/",
+        "https://www.youtube.com/watch?v=JtZfV9qn7Ug"
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Tuck Front Lever",
+      "level": "intermediate",
+      "connectedTo": ["19"],
+      "description": "A tuck front lever is a calisthenics exercise that targets the back and core. It involves hanging from a bar and pulling the body into a horizontal position with the knees tucked.",
+      "completed": false,
+      "prerequisites": ["12"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.bodybuilding.com/exercises/front-lever",
+        "https://www.youtube.com/watch?v=fGvvQL3r1JI"
+      ]
+    },
+    {
+      "id": "17",
+      "label": "Planche",
+      "level": "advanced",
+      "connectedTo": [],
+      "description": "A planche is an advanced gymnastic skill that involves holding the body parallel to the ground, supported only by the hands. It requires exceptional strength and balance.",
+      "completed": false,
+      "prerequisites": ["10"],
+      "completedRequirement": true,
+      "resources": [
+        "https://www.gymnasticbodies.com/how-to-do-a-planche/",
+        "https://www.youtube.com/watch?v=VzJzY9g6kcc"
+      ]
+    },
+    {
+      "id": "18",
+      "label": "Tuck Planche",
+      "level": "intermediate",
+      "connectedTo": ["17"],
+      "description": "A tuck planche is a progression towards the full planche, performed by holding the body parallel to the ground with the knees tucked to the chest.",
+      "completed": false,
+      "prerequisites": ["10"],
+      "completedRequirement": false,
+      "resources": [
+        "https://www.gymnasticbodies.com/how-to-do-a-tuck-planche/",
+        "https://www.youtube.com/watch?v=y00BY9Gbe78"
+      ]
+    },
+    {
+      "id": "19",
+      "label": "Full Front Lever",
+      "level": "advanced",
+      "connectedTo": [],
+      "description": "A full front lever is an advanced calisthenics skill where the body is held horizontally parallel to the ground while hanging from a bar.",
+      "completed": false,
+      "prerequisites": ["16"],
+      "completedRequirement": true,
+      "resources": [
+        "https://www.bodybuilding.com/exercises/front-lever",
+        "https://www.youtube.com/watch?v=F4yPBFx0stE"
+      ]
+    }
+  ]
+  
